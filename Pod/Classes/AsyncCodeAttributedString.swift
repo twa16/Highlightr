@@ -137,7 +137,9 @@ open class AsyncCodeAttributedString : NSTextStorage
         {
             return;
         }
-        
+
+        print("Highlighting: "+String(range.lowerBound)+" to "+String(range.upperBound))
+
         if let highlightDelegate = highlightDelegate
         {
             let shouldHighlight : Bool? = highlightDelegate.shouldHighlight?(range)
