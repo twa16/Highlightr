@@ -139,6 +139,10 @@ open class AsyncCodeAttributedString : NSTextStorage
         }
 
         print("Highlighting: "+String(range.lowerBound)+" to "+String(range.upperBound))
+        if (range.lowerBound == 0 && range.upperBound == stringStorage.length){
+            print("Refusing to highlight whole file!")
+            return
+        }
 
         if let highlightDelegate = highlightDelegate
         {
