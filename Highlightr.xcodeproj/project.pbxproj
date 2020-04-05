@@ -179,6 +179,8 @@
 		8CD1AE201F39171B000FDA02 /* HTMLUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1ADCF1F39126B000FDA02 /* HTMLUtils.swift */; };
 		8CD1AE211F39171B000FDA02 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1ADD01F39126B000FDA02 /* Theme.swift */; };
 		8CD1AE241F39172D000FDA02 /* highlight.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 8CD1ADDC1F3912F2000FDA02 /* highlight.min.js */; };
+		BFD98147086960733CBC702A /* AsyncCodeAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD98A185EDFFFE5445E305E /* AsyncCodeAttributedString.swift */; };
+		BFD98515672D06292945EDA8 /* AsyncCodeAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD98A185EDFFFE5445E305E /* AsyncCodeAttributedString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -274,6 +276,7 @@
 		8CD1AE181F391713000FDA02 /* Highlightr-macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Highlightr-macOS.h"; sourceTree = "<group>"; };
 		8CD1AE191F391713000FDA02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CD1AE261F391802000FDA02 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		BFD98A185EDFFFE5445E305E /* AsyncCodeAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AsyncCodeAttributedString.swift; path = Pod/Classes/AsyncCodeAttributedString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -301,6 +304,7 @@
 				8CD1AE171F391713000FDA02 /* Highlightr-macOS */,
 				8C2FB1C31F39118F00469D0D /* Products */,
 				8CD1AE251F391801000FDA02 /* Frameworks */,
+				BFD98A185EDFFFE5445E305E /* AsyncCodeAttributedString.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -723,6 +727,7 @@
 				8CD1ADD31F39126B000FDA02 /* HTMLUtils.swift in Sources */,
 				5662696320D94F9F00BEEE01 /* Shims.swift in Sources */,
 				8CD1ADD21F39126B000FDA02 /* Highlightr.swift in Sources */,
+				BFD98515672D06292945EDA8 /* AsyncCodeAttributedString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -735,6 +740,7 @@
 				8CD1AE201F39171B000FDA02 /* HTMLUtils.swift in Sources */,
 				5662696420D9508C00BEEE01 /* Shims.swift in Sources */,
 				8CD1AE1F1F39171B000FDA02 /* Highlightr.swift in Sources */,
+				BFD98147086960733CBC702A /* AsyncCodeAttributedString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
